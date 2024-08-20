@@ -16,9 +16,7 @@ function App() {
     { value: 'bar2d', label: 'Bar Chart' },
     { value: 'pie2d', label: 'Pie Chart' },
     { value: 'doughnut2d', label: 'Doughnut Chart' },
-    { value: 'scatter', label: 'Scatter Plot' },
-    { value: 'bubble', label: 'Bubble Chart' },
-    { value: 'heatmap', label: 'Heat Map' }
+    
   ];
 
   useEffect(() => {
