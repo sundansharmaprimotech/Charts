@@ -9,14 +9,14 @@ ReactFC.fcRoot(FusionCharts, Charts, FusionTheme);
 const ChatChart = ({ data, chartType }) => {
   const chartConfig = {
     type: chartType,
-    width: '600',
+    width: '900',
     height: '400',
     dataFormat: 'json',
     dataSource: {
       chart: {
-        caption: 'Chat Activity',
+        caption: 'Activity',
         xAxisName: 'Time',
-        yAxisName: 'Messages',
+        yAxisName: 'Type',
         theme: 'fusion'
       },
       data: data
